@@ -216,3 +216,79 @@ li::before{
         font-weight: 600;
         box-shadow:0px 0px 18px 1px rgb(0, 0, 0);
     }
+
+    /* footer part */
+    footer{
+        height: 577px;
+        background-color: #151414;
+        margin-top: 132px;
+    }
+    .left-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px ;
+        padding-top: 100px;
+       
+    }
+    .left-title{
+        font-family: 'Work Sans';
+        font-weight: 700;
+        font-size: 45px;
+        color: #F8F8F8;
+    }
+    .left-paragraph ,.email, .phone{
+        font-family: 'Work Sans';
+        font-weight: 400;
+        font-size: 16px;
+        color: #F8F8F8;
+        width: 480px;
+    }
+    .left-icons{
+        display: flex;
+        gap: 15px;
+        
+    }
+    .right-part{
+        color:#FFFFFF ;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 30px;
+        padding-top: 160px;  
+    }
+    .footer-both-part{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    .subscribe{
+        width: 160px;
+        height: 64px;
+        border-radius: 10px;
+        border: 0px;
+        margin: 0px 0px 10px 0px;
+        padding: 20px 25px 20px 26px;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1e3dec;
+        font-weight: 600;
+        box-shadow:0px 0px 18px 1px rgb(0, 0, 0);
+    }
+  input[type=email]{
+    width: 350px;
+    height: 50px;
+    border: 2px white solid;
+    background-color: #151414;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding-left: 20px;
+  }
+  input::placeholder{
+    color: #F8F8F8;
+  }
