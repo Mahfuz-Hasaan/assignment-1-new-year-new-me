@@ -5,7 +5,7 @@
 
 /* This is header css section */
 header{
-    background-image: url(../images/banner3.png);
+    background-image: url('../images/banner3.png');
     background-size: cover;
     height: 105vh;
    
@@ -184,3 +184,35 @@ li::before{
     box-shadow:  2px 1px 14px 2px rgb(110, 110, 110);
     border-radius: 10px;
 }
+
+/* transition part */
+.transition{
+    margin-top: 130px;
+    background-image:linear-gradient(to left,transparent, rgba(68, 49, 241, 0.493),rgba(46, 66, 250, 0.753)) , url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1130px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.transition-title{
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    padding: 59px 617px 20px 64px ;
+    
+}
+.call-now{
+        width: 160px;
+        height: 64px;
+        border-radius: 10px;
+        border: 0px;
+        margin: 0px 16px 10px 64px;
+        padding: 20px 25px 20px 26px;
+        font-size: 20px;
+        color: #005FAC;
+        font-weight: 600;
+        box-shadow:0px 0px 18px 1px rgb(0, 0, 0);
+    }
