@@ -84,3 +84,103 @@ li::before{
     padding-left:87px ;
     color: #444343;
 }
+
+/* my-plans */
+
+.my-plans{
+    margin-top: 130px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.my-plans-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+}
+.my-plans-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.plan-img{
+    height: 93px;
+    width: 93px;
+}
+.plan{
+    padding-top:50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px ;
+}
+.plan-title{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-details{
+    text-align: center;
+    padding-right: 0px;
+    font-family: 'Work Sans';
+    width: 200px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* bonus-part */
+.my-plans-details-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.plan-details-2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.programming-hero{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    border: 0px;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px 50px 80px 30px ;
+    margin-top: 80px;
+    background-color: #cbf8e57e;
+    box-shadow: 2px 1px 14px 2px rgb(110, 110, 110);
+    border-radius: 10px;
+}
+.bohubrihi{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    border: 0px;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px 50px 80px 30px ;
+    margin-top: 80px;
+    background-color: #f3a2ef5b;
+    box-shadow: 2px 1px 14px 2px rgb(110, 110, 110);
+    border-radius: 10px;
+}
+.creative-it{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    border: 0px;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px 50px 80px 30px ;
+    margin-top: 80px;
+    background-color: #dcc6f58c;
+    box-shadow:  2px 1px 14px 2px rgb(110, 110, 110);
+    border-radius: 10px;
+}
